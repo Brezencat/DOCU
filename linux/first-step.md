@@ -3,9 +3,10 @@
 ## Что устанавливаю
 
 * **htop** - interactive process viewer\
-Утановка `sudo apt-get install htop`\ 
+Установка `sudo apt-get install htop`\ 
 Использование `htop`
 * 
+
 ## Проверки, статусы
 
 * Работа MS SQL Server\
