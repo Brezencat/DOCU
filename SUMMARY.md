@@ -6,3 +6,6 @@
 
 * [First step](linux/first-step.md)
 
+## MS SQL Server
+
+* [MS SQL Server for Linux](mssqlserver/mssqlsserver.md)
