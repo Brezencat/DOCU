@@ -53,8 +53,11 @@ sudo apt-get install unixodbc-dev
 ```
 
 ### [Установка служб SQL Server Integration Services (SSIS)](https://docs.microsoft.com/ru-ru/sql/linux/sql-server-linux-setup-ssis?view=sql-server-ver15)
-Установка `sudo apt-get install -y mssql-server-is`
-> продолжить установку
+Установка 
+```
+sudo apt-get install -y mssql-server-is
+```
+После установки переходим к настройке.
 
 ---
 
@@ -107,3 +110,19 @@ sudo systemctl restart mssql-server
 [Агент SQL Server](https://docs.microsoft.com/ru-ru/sql/ssms/agent/sql-server-agent?view=sql-server-ver15) (эту часть в дальнейшем перенести в раздел по SQL и заменить ссылку)
 
 ### [Настройка SQL Server Integration Services в Linux с помощью ssis-conf](https://docs.microsoft.com/ru-ru/sql/linux/sql-server-linux-configure-ssis?view=sql-server-ver15)
+Для настройки необходимо выполнить команду
+```
+sudo /opt/ssis/bin/ssis-conf setup
+```
+
+Выбираем выпуск SQL Server числовым обозначением: _2 - Developer; 3 - Express_\
+Подверждаем лицензионное соглашение: _y_\
+Выбираем язык для SQL Server: _1 - English; 9 - Русский_
+\
+Задаём переменную среды PATH
+```
+export PATH=/opt/ssis/bin:$PATH
+```
+
+[Извлечение, преобразование и загрузка данных в Linux с помощью служб SSIS](https://docs.microsoft.com/ru-ru/sql/linux/sql-server-linux-migrate-ssis?view=sql-server-ver15)
+[Планирование выполнения пакетов SQL Server Integration Services в Linux с помощью cron](https://docs.microsoft.com/ru-ru/sql/linux/sql-server-linux-schedule-ssis-packages?view=sql-server-ver15)
