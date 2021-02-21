@@ -8,4 +8,5 @@
 
 ## MS SQL Server
 
-* [MS SQL Server for Linux](mssqlserver/mssqlsserver.md)
+* [MS SQL Server for Linux](ms-sql-server/mssqlsserver.md)
+
