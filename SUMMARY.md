@@ -2,6 +2,19 @@
 
 * [Initial page](README.md)
 
+## Airflow
+
+* [Airflow for Linux](airflow/description.md)
+
+## GIT
+
+* [Начало работы с Git](git.md)
+* [Заметки по GIT](git_notes.md)
+
+## Grafana
+
+* [Grafana for Raspberry Pi](grafana/grafana.md)
+
 ## Linux
 
 * [First step](linux/first-step.md)
@@ -10,11 +23,10 @@
 
 * [MS SQL Server for Linux](mssqlserver/mssqlsserver.md)
 
-## Grafana
+## Другое
 
-* [Grafana for Raspberry Pi](grafana/grafana.md)
+* [Уровень сингнала LTE сети](other/signal_level_lte.md)
 
-## Airflow
+## PostgreSQL
 
-* [Airflow for Linux](airflow/description.md)
-
+* [Инфо по командам командной строке и psql](postgresql/commandsinfo.md)
