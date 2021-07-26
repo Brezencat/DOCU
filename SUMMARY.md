@@ -8,8 +8,8 @@
 
 ## GIT
 
-* [Начало работы с Git](git.md)
-* [Заметки по GIT](git_notes.md)
+* [Начало работы с Git](GIT/git.md)
+* [Заметки по GIT](GIT/git_notes.md)
 
 ## Grafana
 
