@@ -18,23 +18,22 @@
 Дата обновления и замеров 18.08.2021
 
 * В1 - не активен
-* В3 - бывают перебои, но если работает, то стабильно. PING ms 55 DOWNLOAD Mbps 3.44 UPLOAD Mbps 4.77
+* В3 - бывают перебои, но если работает, то стабильно. PING ms 55 DOWNLOAD Mbps 3.44 UPLOAD Mbps 4.77, а если не стабильно, то ваот так PING ms 97 DOWNLOAD Mbps 0.63 UPLOAD Mbps 6.17
 	* RSSI: -63dBm
 	* RSRP: -89dBm
 	* RSRQ: -10dB
 	* SINR: 5dB
-* **В7** - похоже лучше всего. После 16:30 сильно тормозит. PING ms 61 DOWNLOAD Mbps 2.07 UPLOAD Mbps 1.47
+* **В7** - похоже лучше всего. После 16:30 сильно тормозит. PING ms 61 DOWNLOAD Mbps 2.07 UPLOAD Mbps 1.47 или PING ms 51 DOWNLOAD Mbps 12.86 UPLOAD Mbps 1.06
 	* RSSI: -87dBm (-87dBm)
 	* RSRP: -112dBm (-107dBm)
 	* RSRQ: -6dB (-9dB)
 	* SINR: 8dB (10dB)
 * В8 - нет сигнала
-* В20 - не особо понятно PING ms 49 DOWNLOAD Mbps 1.53 UPLOAD Mbps 4.90
-	* RSSI: -59dBm (-63dBm)
-	* RSRP: -82dBm (-83dBm)
-	* RSRQ: -8dB (-8dB)
-	* SINR: 10dB (11dB)
-
+* В20 - не особо понятно PING ms 49 DOWNLOAD Mbps 1.53 UPLOAD Mbps 4.90 или PING ms 48 DOWNLOAD Mbps 2.63 UPLOAD Mbps 4.21
+	* RSSI: -65dBm (-63dBm)
+	* RSRP: -87dBm (-83dBm)
+	* RSRQ: -10dB (-8dB)
+	* SINR: 6dB (11dB)
 
 
 
