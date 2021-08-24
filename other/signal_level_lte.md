@@ -29,7 +29,7 @@
 	* RSRQ: -6dB (-9dB)
 	* SINR: 8dB (10dB)
 * В8 - нет сигнала
-* В20 - не особо понятно PING ms 49 DOWNLOAD Mbps 1.53 UPLOAD Mbps 4.90 или PING ms 48 DOWNLOAD Mbps 2.63 UPLOAD Mbps 4.21
+* В20 - не особо понятно PING ms 49 DOWNLOAD Mbps 1.53 UPLOAD Mbps 4.90 или PING ms 46 DOWNLOAD Mbps 6.67 UPLOAD Mbps 4.56
 	* RSSI: -65dBm (-63dBm)
 	* RSRP: -87dBm (-83dBm)
 	* RSRQ: -10dB (-8dB)
@@ -40,10 +40,10 @@
 
 ## Владимирская область, Александровский район, д. Новинки
 
-Дата обновления и замеров 26.07.2021
+Дата обновления и замеров 24.08.2021
 
 * В1 - нет сигнала
-* **В3** - совсем не плохо PING ms 48 DOWNLOAD Mbps 14.53 UPLOAD Mbps 26.01
+* **В3** - совсем не плохо PING ms 52 DOWNLOAD Mbps 11.60 UPLOAD Mbps 29.37
 	* RSSI: -67dBm
 	* RSRP: -94dBm
 	* RSRQ: -8dB
