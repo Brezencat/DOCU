@@ -1,5 +1,5 @@
-#Команды PosgreSQL
-\
+# Команды PosgreSQL
+
 Смена пароля для пользователя БД postgres
 ```
 psql -c "ALTER USER postgres WITH PASSWORD ‘PaSsWoRd;"
