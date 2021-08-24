@@ -17,7 +17,7 @@ git clone https://<git_link>/<project_name>.git
 ```
 *Если на этом этапе получаем ошибку SSL сертификата, то ищем решение в [заметках](./git_notes.md)*
 
-#### Переходим в папке с названием нашего репозитория (проекта)
+#### Переходим в папку с названием нашего репозитория (проекта)
 ```bash
 cd ./<project_name>
 ```
@@ -114,3 +114,19 @@ git merge <yours-branch-name>
 ```
 
 ---
+
+#### Удаление ветки
+После слияния ветку можно удалить.
+#### Удаление локальной ветки, если произведён merge изменений из этой ветки (--delete)
+```bash
+git branch -d <yours-branch-name> 
+```
+#### Удаление локальной ветки без каких либо проверок (--delete --force)
+```bash
+git branch -D <yours-branch-name> 
+```
+#### Удаление ветки из удалённого репозитория
+```bash
+git push <remote-repository-name> --delete <yours-branch-name> 
+```
+Пример: `git push origin --delete DEV`
