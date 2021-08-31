@@ -15,6 +15,10 @@
 
 * [Grafana for Raspberry Pi](grafana/grafana.md)
 
+## Jira
+
+* [Фильтры для поиска](jira/search_jql.md)
+
 ## Linux
 
 * [First step](linux/first-step.md)
