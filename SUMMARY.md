@@ -17,7 +17,7 @@
 
 ## Jira
 
-* [Фильтры для поиска](jira/search_jql.md)
+* [Фильтры для поиска](Jira/search_jql.md)
 
 ## Linux
 
