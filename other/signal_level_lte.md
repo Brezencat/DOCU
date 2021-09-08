@@ -18,7 +18,7 @@
 Дата обновления и замеров 18.08.2021
 
 * В1 - не активен
-* В3 - бывают перебои, но если работает, то стабильно. PING ms 55 DOWNLOAD Mbps 3.44 UPLOAD Mbps 4.77, а если не стабильно, то ваот так PING ms 97 DOWNLOAD Mbps 0.63 UPLOAD Mbps 6.17
+* В3 - бывают перебои, но если работает, то стабильно. PING ms 55 DOWNLOAD Mbps 3.44 UPLOAD Mbps 4.77, а если не стабильно, то вот так PING ms 97 DOWNLOAD Mbps 0.63 UPLOAD Mbps 6.17
 	* RSSI: -63dBm
 	* RSRP: -89dBm
 	* RSRQ: -10dB
