@@ -29,6 +29,7 @@
 
 ## Другое
 
+* [Необычные вопросы для IT-собеседования](other/it_interview_questions.md)
 * [Уровень сингнала LTE сети](other/signal_level_lte.md)
 
 ## PostgreSQL
