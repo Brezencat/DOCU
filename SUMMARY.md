@@ -31,6 +31,7 @@
 
 * [Необычные вопросы для IT-собеседования](other/it_interview_questions.md)
 * [Переключатели механической клавиатуры](other/keyboard_switch.md)
+* [Роутер TP-Link MR3020](other/tp-link-mr3020.md)
 * [Уровень сингнала LTE сети](other/signal_level_lte.md)
 
 ## PostgreSQL
