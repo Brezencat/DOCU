@@ -27,6 +27,10 @@
 
 * [MS SQL Server for Linux](mssqlserver/mssqlsserver.md)
 
+## Сети
+
+* [Про IP-адрес](network/ip.md)
+
 ## Другое
 
 * [Необычные вопросы для IT-собеседования](other/it_interview_questions.md)
