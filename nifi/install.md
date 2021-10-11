@@ -1,8 +1,8 @@
-# Установка Apache NiFi на Debian 10
+# Установка Apache NiFi на Debian 11
 
 _все команды в терминале запускаются из под рута (root), если не указано иное._
 
-### Java
+## Java
 Перед установкой самого NiFi сначала стоит проверить версию Java, если она установлена.
 ```bash
 java -version
@@ -16,5 +16,22 @@ java -version
 
 ```bash
 apt install -y openjdk-11-jre
+```
+
+## Установка Apache NiFi
+
+Скачиваем архив для установки NiFi с [офф.сайта](https://nifi.apache.org/download.html)
+```bash
+wget https://dlcdn.apache.org/nifi/1.14.0/nifi-1.14.0-bin.tar.gz 
+```
+
+Распаковываем скаченный архив
+```bash
+tar -xvzf nifi-1.13.2-bin.tar.gz
+```
+
+Переносим папку в рабочую дирректорию
+```bash
+mv nifi-1.14.0 /opt/nifi
 ```
 
