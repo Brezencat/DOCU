@@ -10,6 +10,7 @@
 
 * [Начало работы с Git](GIT/git.md)
 * [Заметки по GIT](GIT/git_notes.md)
+* [Изменения между ветками](GIT/git_diff.md)
 
 ## Grafana
 
