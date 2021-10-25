@@ -27,8 +27,12 @@ wget https://dlcdn.apache.org/nifi/1.14.0/nifi-1.14.0-bin.tar.gz
 
 Распаковываем скаченный архив
 ```bash
-tar -xvzf nifi-1.13.2-bin.tar.gz
+tar -xvzf nifi-1.14.0-bin.tar.gz
 ```
+* -x (--extract) - извлечение файлов из архива
+* -v (--verbose) - выаодит список обрабатываемых файлов
+* -z (--gzip, --ungzip) - фильтрует архив с помощью gzip
+* -f (--file [HOSTNAME:]F) - использует архивный файл или устройство (возможно даже на узле HOSTNAME) F. По умолчанию используется /dev/rmt0
 
 Переносим папку в рабочую дирректорию
 ```bash
@@ -95,19 +99,52 @@ Bootstrap Config File: /opt/nifi/conf/bootstrap.conf
 ```bash
 nano /opt/nifi/conf/nifi.properties 
 ```
+Тут два пути: для локальной настройки (HTTP) или удалённого инстанса (HTTPS). _Так как у меня настройка идёт в контейнере, то мне подходит вариант работы через HTTPS._
+
+**HTTP**\
 Прописываем значения:
 ```bash
 nifi.web.http.host=127.0.0.1 (или IP адрес NiFi)
 nifi.web.http.port=8080
 nifi.web.http.network.interface.default=eth0 (адаптер, на котором есть сеть и чей IP прописывали выше)
 ```
-Очищаем значения
+Очищаем значения:
 ```bash
 nifi.web.https.host=
 nifi.web.https.port=
 ```
 Сохраняем.
 
+**HTTPS**\
+Прописываем значения:
+```bash
+nifi.web.https.host=127.0.0.1 (или IP адрес NiFi)
+nifi.web.https.port=8443
+nifi.web.https.network.interface.default=eth0 (адаптер, на котором есть сеть и чей IP прописывали выше)
+```
+Прописывать адаптер не обязательно.\
+Очищаем значения:
+```bash
+nifi.web.http.host=
+nifi.web.http.port=
+nifi.web.http.network.interface.default=
+```
+Сохраняем.
+
 Переходим в браузер по ссылке:\
 http://localhost:8080/nifi\
+https://localhost:8443/nifi\
 _вместо localhost указываем IP адрес NiFi_
+
+Установка логина и пароля для входа в интерфейс
+```bash
+/opt/nifi/bin/nifi.sh set-single-user-credentials LOGIN PASSWORD
+```
+или посмотреть, что прописано в файле
+```bash
+nano /opt/nifi/./conf/login-identity-providers.xml
+```
+После чего необходимо перезапустить сервис nifi
+```bash
+systemctl restart nifi
+```
