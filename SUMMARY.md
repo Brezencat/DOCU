@@ -24,6 +24,7 @@
 
 * [First step](linux/first-step.md)
 * [Создание нового пользователя в Linux](linux/adduser.md)
+* [Решения для типичных проблем](linux/problems.md)
 
 ## MS SQL Server
 
