@@ -25,6 +25,7 @@
 * [First step](linux/first-step.md)
 * [Создание нового пользователя в Linux](linux/adduser.md)
 * [Решения для типичных проблем](linux/problems.md)
+* [Установка и настройка Transmission](linux/transmission.md)
 
 ## MS SQL Server
 * [MS SQL Server for Linux](mssqlserver/mssqlsserver.md)
