@@ -34,11 +34,16 @@ mkdir /home/torrent/downloads
 mkdir /home/torrent/incomplete
 ```
 
-### Выдаём права на каталоги для чтения и исполнения
+### Выдаём права на каталоги
 ```bash
 sudo chmod 775 /home/torrent/torrents
 sudo chmod 775 /home/torrent/downloads
 sudo chmod 775 /home/torrent/incomplete
+```
+
+### Добавляем пользователя, под которым запускается transmission в группу нашего пользователя (чтобы была возможность писать в созданные выше директории)
+```bash
+sudo usermod -aG torrent debian-transmission
 ```
 
 ## Настройка Transmission
