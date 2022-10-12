@@ -5,7 +5,7 @@
 ---
 ## Заметки по настройке GIT на локальном компьютере
 
-### Основные настройки
+## Основные настройки
 Настройки GIT находятся в файле .gitconfig. \
 Через консоль настройки осуществляются командой `git config`. \
 Проверить, какие настройки используются и из каких файлов с конфигурацией можно командой:
@@ -17,13 +17,13 @@ git config --list --show-origin
 git config --list --show-origin --show-scope
 ```
 
-#### Настройка отображаемого имени пользователя и e-mail для конкретного репозитория
+### Настройка отображаемого имени пользователя и e-mail для конкретного репозитория
 ```bash
 git config --local user.name "Brezencat"
 git config --local user.email "brezencat@gmail.com"
 ```
 
-#### Настройка отображаемого имени пользователя и e-mail для коммитах в любых репозиториях, если эти занчения не установлены в локальном конфиге 
+### Настройка отображаемого имени пользователя и e-mail для коммитах в любых репозиториях, если эти занчения не установлены в локальном конфиге 
 ```bash
 git config --global user.name "Dimon Martovskiy"
 git config --global user.email "brezencat@gmail.com"
@@ -31,7 +31,7 @@ git config --global user.email "brezencat@gmail.com"
 
 ---
 
-### Ошибка проверки SSL сертификата
+## Ошибка проверки SSL сертификата
 Если в Windows при клонировании возникает ошибка
 >Cloning into 'name_project'...
 >fatal: unable to access 'https://git_url_project...': SSL certificate problem: unable to get local issuer certificate
@@ -45,17 +45,31 @@ GIT_SSL_NO_VERIFY=true git clone /path/to/repo
 git config --global http.sslbackend schannel
 ```
 
-#### Отключение проверки SSL сертификата (не рекомендуется)
+### Отключение проверки SSL сертификата (не рекомендуется)
 ``` bash
 git config --global http.sslVerify false
 ```
 
 ---
 
-### Разное
-#### Создание git hist (история и граф изменений)
+## Разное
+## Создание git hist (история и граф изменений)
 ```bash
 git config --global alias.hist "log --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(red)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --graph --date=short"
 ```
 
+## Исключение файла из репозитория, если .gitignore был добавлен позже
+.gitignore исключает только файлы, которые ранее не отслеживались (не добавлялись в коммиты с помощью _git add_).\
+Сбрасываем отслеживание файла
+```bash
+git reset example-function.sql
+```
+Удаляем файл из репозитория (удалённого репозитория), но так как файл добавлен в .gitignore, то локальная копия не удаляется
+```bash
+git rm --cached example-function.sql
+```
+Фиксируем изменения
+```bash
+git commit -am '<comment>' && git push
+```
 
