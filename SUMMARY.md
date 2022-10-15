@@ -2,37 +2,50 @@
 
 * [Initial page](README.md)
 
-## Airflow
 
+## Airflow
 * [Airflow for Linux](airflow/description.md)
 
-## GIT
 
+## GIT
 * [Начало работы с Git](GIT/git.md)
 * [Заметки по GIT](GIT/git_notes.md)
+* [Изменения между ветками](GIT/git_diff.md)
+
 
 ## Grafana
-
 * [Grafana for Raspberry Pi](grafana/grafana.md)
 
-## Jira
 
+## Jira
 * [Фильтры для поиска](Jira/search_jql.md)
 
-## Linux
 
+## Linux
 * [First step](linux/first-step.md)
+* [Создание нового пользователя в Linux](linux/adduser.md)
+* [Решения для типичных проблем](linux/problems.md)
+* [Установка и настройка Transmission](linux/transmission.md)
 
 ## MS SQL Server
-
 * [MS SQL Server for Linux](mssqlserver/mssqlsserver.md)
 
-## Другое
-
-* [Необычные вопросы для IT-собеседования](other/it_interview_questions.md)
-* [Переключатели механической клавиатуры](other/keyboard_switch.md)
-* [Уровень сингнала LTE сети](other/signal_level_lte.md)
 
 ## PostgreSQL
-
 * [Инфо по командам командной строке и psql](postgresql/commandsinfo.md)
+
+
+## Сети
+* [Про IP-адрес](network/ip.md)
+
+
+## Другое
+* [Полезные материалы](other/useful-materials.md)
+* [Пример моего файла .gitignore](other/my-example.gitignore)
+* [Необычные вопросы для IT-собеседования](other/it_interview_questions.md)
+* [Переключатели механической клавиатуры](other/keyboard_switch.md)
+* [Роутер TP-Link MR3020](other/tp-link-mr3020.md)
+* [Уровень сингнала LTE сети](other/signal_level_lte.md)
+
+
+
