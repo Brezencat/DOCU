@@ -39,6 +39,7 @@
 
 
 ## Другое
+* [Полезные материалы](other/useful-materials.md)
 * [Пример моего файла .gitignore](other/my-example.gitignore)
 * [Необычные вопросы для IT-собеседования](other/it_interview_questions.md)
 * [Переключатели механической клавиатуры](other/keyboard_switch.md)
