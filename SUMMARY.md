@@ -11,6 +11,7 @@
 * [Начало работы с Git](GIT/git.md)
 * [Заметки по GIT](GIT/git_notes.md)
 * [Изменения между ветками](GIT/git_diff.md)
+* [Про .gitignore и мой шаблон файла](GIT/gitignore.md)
 
 
 ## Grafana
@@ -41,7 +42,6 @@
 
 ## Другое
 * [Полезные материалы](other/useful-materials.md)
-* [Пример моего файла .gitignore](other/my-example.gitignore)
 * [Необычные вопросы для IT-собеседования](other/it_interview_questions.md)
 * [Переключатели механической клавиатуры](other/keyboard_switch.md)
 * [Роутер TP-Link MR3020](other/tp-link-mr3020.md)
