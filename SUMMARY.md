@@ -24,9 +24,11 @@
 
 ## Linux
 * [First step](linux/first-step.md)
+* [Базовые команды](linux/basic_command.md)
 * [Создание нового пользователя в Linux](linux/adduser.md)
 * [Решения для типичных проблем](linux/problems.md)
 * [Установка и настройка Transmission](linux/transmission.md)
+* [оздание и добавление ключа RSA](linux/rsa_pub_key.md)
 
 ## MS SQL Server
 * [MS SQL Server for Linux](mssqlserver/mssqlsserver.md)
