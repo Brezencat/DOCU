@@ -11,6 +11,7 @@
 * [Начало работы с Git](GIT/git.md)
 * [Заметки по GIT](GIT/git_notes.md)
 * [Изменения между ветками](GIT/git_diff.md)
+* [Про .gitignore и мой шаблон файла](GIT/gitignore.md)
 
 
 ## Grafana
@@ -23,9 +24,11 @@
 
 ## Linux
 * [First step](linux/first-step.md)
+* [Базовые команды](linux/basic_command.md)
 * [Создание нового пользователя в Linux](linux/adduser.md)
 * [Решения для типичных проблем](linux/problems.md)
 * [Установка и настройка Transmission](linux/transmission.md)
+* [оздание и добавление ключа RSA](linux/rsa_pub_key.md)
 
 ## MS SQL Server
 * [MS SQL Server for Linux](mssqlserver/mssqlsserver.md)
@@ -41,8 +44,8 @@
 
 ## Другое
 * [Полезные материалы](other/useful-materials.md)
-* [Пример моего файла .gitignore](other/my-example.gitignore)
 * [Необычные вопросы для IT-собеседования](other/it_interview_questions.md)
+* [Проерка контрольной суммы файла](other/check-sum-file.md)
 * [Переключатели механической клавиатуры](other/keyboard_switch.md)
 * [Роутер TP-Link MR3020](other/tp-link-mr3020.md)
 * [Уровень сингнала LTE сети](other/signal_level_lte.md)
