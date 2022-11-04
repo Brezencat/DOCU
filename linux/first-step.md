@@ -1,18 +1,16 @@
 # First step
 
-## Что устанавливаю
+## Life Hacks
+Для утилиты `top` есть некоторые настройки, реализуются через нажатие соответствющих клавиш:
+* Z - color, разукрашивает консоль;
+* x - sort, разные варианты сортировки процессов;
+* a - split window, разделяет вывод на несколько экранов, в каждом можно применять свои настройки сортировки и цвета;
+* ? - manual, выводит краткое описание.
 
-* **htop** - interactive process viewer\
 
-  Установка `sudo apt-get install htop` 
-
-  Использование `htop`
-
-* 
 ## Проверки, статусы
 
-* Работа MS SQL Server\
-
-  `systemctl status mssql-server --no-pager`
-
-* 
+### Работа MS SQL Server
+```bash 
+systemctl status mssql-server --no-pager
+``` 
