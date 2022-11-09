@@ -44,6 +44,7 @@
 
 ## Другое
 * [Полезные материалы](other/useful-materials.md)
+* [Настройки для iTerm2](other/iterm-settings.md)
 * [Необычные вопросы для IT-собеседования](other/it_interview_questions.md)
 * [Проерка контрольной суммы файла](other/check-sum-file.md)
 * [Переключатели механической клавиатуры](other/keyboard_switch.md)
