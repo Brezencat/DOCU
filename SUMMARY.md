@@ -10,6 +10,7 @@
 ## GIT
 * [Начало работы с Git](GIT/git.md)
 * [Заметки по GIT](GIT/git_notes.md)
+* [Изменить комментарий к коммиту в Git](GIT/git-change-message-commit.md)
 * [Изменения между ветками](GIT/git_diff.md)
 * [Про .gitignore и мой шаблон файла](GIT/gitignore.md)
 
