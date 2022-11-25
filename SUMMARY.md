@@ -10,6 +10,7 @@
 ## GIT
 * [Начало работы с Git](GIT/git.md)
 * [Заметки по GIT](GIT/git_notes.md)
+* [Изменить комментарий к коммиту в Git](GIT/git-change-message-commit.md)
 * [Изменения между ветками](GIT/git_diff.md)
 * [Про .gitignore и мой шаблон файла](GIT/gitignore.md)
 
@@ -44,6 +45,7 @@
 
 ## Другое
 * [Полезные материалы](other/useful-materials.md)
+* [Настройки для iTerm2](other/iterm-settings.md)
 * [Необычные вопросы для IT-собеседования](other/it_interview_questions.md)
 * [Проерка контрольной суммы файла](other/check-sum-file.md)
 * [Переключатели механической клавиатуры](other/keyboard_switch.md)
