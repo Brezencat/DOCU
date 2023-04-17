@@ -27,6 +27,7 @@
 * [First step](linux/first-step.md)
 * [Базовые команды](linux/basic_command.md)
 * [Создание нового пользователя в Linux](linux/adduser.md)
+* [Управление пользователями и группами](linux/user-and-group.md)
 * [Решения для типичных проблем](linux/problems.md)
 * [Установка и настройка Transmission](linux/transmission.md)
 * [оздание и добавление ключа RSA](linux/rsa_pub_key.md)
